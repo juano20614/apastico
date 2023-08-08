@@ -1,0 +1,525 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --ColorFondo: #3b3b3b;
+    --azul: rgb(29, 91, 150);
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color:#4c5a65;
+     color: #fff;
+    top: 0;
+    position: sticky;
+}
+
+#logoEmpresa {
+    object-fit: contain;
+    width: 10%;
+    height: 80%;
+    margin: auto 20px;
+}
+
+nav {
+    width: 50%;
+}
+
+.menu {
+    height: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li {
+    width: 15%;
+    height: 50%;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuNav li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.menu li:hover {
+    background-color: rgb(181, 208, 216);
+}
+
+
+.promo {
+    background-color: #5c6a75;
+    display: flex;
+    padding-top: 80px;
+}
+
+.iphone{
+    width: 50%;
+    margin-left: 80px;
+}
+
+.late {
+    width: 50%;
+}
+
+#titulo{
+    font-size: 60px;
+    color: #fff;
+}
+
+.textos {
+    width: 80%;
+}
+
+.textoUno {
+    color: #e2e2e2;
+}
+
+.textoDos {
+    color: #9e9e9e;
+    margin-top: 10px;
+}
+
+#botonoes {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    color: #fff;
+}
+
+.botonesPromo {
+    width: 35%;
+    height: 50px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+}
+
+#botonCompra {
+    background-color: var(--azul);
+    box-shadow: 0px 5px 5px rgb(218, 218, 218);
+    margin-right: 20px;
+}
+
+#botonRect {
+    background-color: transparent;
+    margin-left: 20px;
+  
+}
+
+#botonRect:hover {
+    background-color: var(--azul);
+    box-shadow: 0px 5px 5px rgb(218, 218, 218);
+}
+
+#lineaBoton {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logos{
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dadada;
+}
+
+
+.bavin {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.cuadros {
+    width: 30%;
+    text-align: center;
+}
+
+.imagenes{
+    display: flex;
+    justify-content: center;
+}
+
+
+.botones {
+    margin-top: 20px;
+}
+
+
+
+.botones {
+    width: 30%;
+    height: 35px;
+    background-color: rgb(52, 92, 201);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.dias {
+    margin-top: 60px;
+    padding: 0 60px;
+}
+
+.luchito {
+    display: flex;
+}
+
+.luchito img {
+    object-fit: contain;
+}
+
+.luchito p {
+    margin-left: 10px;
+    font-size: 20px;
+    color: #9e9e9e;
+}
+
+.luizdias {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagenesdias {
+    width: 20%;
+}
+
+
+
+.bloques {
+    display: flex;
+    margin-top: 60px;
+    padding: 0 60px;
+}
+
+.bloque {
+    width: 50%;
+}
+
+.tituloBloque {
+    display: flex;
+}
+
+.tituloBloque img {
+    object-fit: contain;
+}
+
+.tituloBloque p {
+    margin-left: 10px;
+    font-size: 20px;
+    color: #9e9e9e;
+}
+
+.textoBloque {
+    margin-top: 10px;
+    display: flex;
+    width: 90%;
+}
+
+.textosImganesB {
+    object-fit: contain;
+    width: 150px;
+    height: 150px;
+}
+
+.textoBloque div {
+    margin: auto 15px auto;
+    padding-left: 20px;
+}
+
+.textoBloque div h4 {
+    color: #9e9e9e;
+}
+
+.textoBloque div p {
+    color: #666666;
+}
+
+.textoBloque div p a {
+    color: var(--azul);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.textoazul {
+    margin-top: 10px;
+    color: var(--azul);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+#postTwitter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Twitter p {
+    margin: 20px auto;
+}
+
+.inicioTextos {
+    color: #9e9e9e;
+}
+
+.colorTexto {
+    color: rgb(0, 162, 255);
+}
+
+.fechaPost {
+    padding-top: 10px;
+    color: #9e9e9e;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    border-top: 2px solid #9e9e9e;
+    margin: 30px auto 0;
+    padding-top: 10px;
+}
+
+
+/* JUANO responsive*/
+
+
+
+@media screen and (max-width: 767px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90px;
+    }
+    #logoEmpresa {
+        padding-top: 15px;
+        width: 80%;
+        height: 60%;
+    }
+
+    nav {
+        width: 100%;
+        height: 100%;
+    }
+    .menuNav {
+        width: 100%;
+    }
+
+    .menuNav li {
+        width: 20%;
+        height: 100%;
+    }
+
+    .promo {
+        margin: 0;
+        padding: 20px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .iphone {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .iphone img {
+        width: 50%;
+    }
+
+    .late {
+        width: 100%;
+    }
+
+    .titulp {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .textos {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .botonoes {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .logos img {
+        width: 10%;
+        height: 80%;
+    }
+
+    .bavin {
+        margin: 10px 0;
+        flex-direction: column;
+    }
+
+
+    .dias {
+        margin: 10px 0;
+        padding: 0;
+    }
+
+    .luisdiaz {
+        padding: 0 20px;
+    }
+
+    .bloques {
+        margin: 10px 0;
+        flex-direction: column;
+    }
+
+ 
+
+    .bloque {
+        flex-direction: column;
+        margin: 15px 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .bloque {
+        width: 100%;
+    }
+
+    .tituloBloque {
+        padding: 0 20px;
+        width: 100%;
+    }
+
+    .textoBloque {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .textoBloque  {
+        margin: 0 auto;
+    }
+
+    .finalBloque {
+        display: flex;
+        margin: 10px auto;
+        justify-content: center;
+    }
+
+    .Twitter {
+        padding: 20px;
+    }
+
+    .Twitter p {
+        padding: 0 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/*segundo*/
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .promo {
+        padding: 10px 0;
+    }
+
+    .iphone {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .iphone img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .titulo{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .late {
+        padding: 20px;
+        margin: auto;
+    }
+
+    .textos {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #botonoes {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    #botonoes button {
+        width: 90%;
+    }
+
+    .bloques {
+        flex-direction: column;
+    }
+
+    .textoBloque {
+        width: 90%;
+    }
+
+    .bloqueBlog {
+        width: 100%;
+    }
+
+    .finalBloque {
+        display: flex;
+        justify-content: center;
+    }
+}
+ /*tercero*/
+ @media screen and (min-width: 1024px) {
+    .late {
+        margin: auto;
+    }
+    .titulo{
+        font-size: 35px;
+        text-align: center;
+    }
+    .textos {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+ }
